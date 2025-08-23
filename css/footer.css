@@ -1,0 +1,14 @@
+.footer {
+  background-color: blueviolet;
+}
+
+.footer__contacts {
+  font-style: normal;
+  font-weight: var(--light-fw);
+  font-size: var(--footer-address-fsz);
+}
+
+.footer__copy {
+  font-size: var(--footer-copy-fsz);
+  color: var(--trt-clr);
+}

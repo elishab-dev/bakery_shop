@@ -1,0 +1,130 @@
+:root {
+  --prm-clr: #31261a;
+  --scd-clr: #faf4ea;
+  --trt-clr: #a18268;
+
+  --brand-light-clr: #819b57;
+  --brand-dark-clr: #465929;
+
+  /* FSZ */
+  --prm-fsz: 1.125rem;
+  --scd-fsz: 1.25rem;
+  --trt-fsz: 1.5rem;
+
+  --form-btn-politics-fsz: 0.75rem;
+
+  --footer-address-fsz: 1rem;
+  --footer-copy-fsz: 0.87rem;
+
+  --hero-title-fsz: 8rem;
+  --title-fsz: 4rem;
+  --scd-title-fsz: 2.5rem;
+
+  --card-fsz: 0.87rem;
+
+  /* LH */
+  --title-lh: 1.3;
+  --card-lh: 1.64;
+
+  /* FW */
+  --light-fw: 300;
+  --sb-fw: 600;
+  --black-fw: 900;
+
+  /* BORDER */
+  --title-border: 2px solid #cfcfbc;
+  --input-border: 1px solid var(--form-input-clr);
+
+  --prm-br: 0.5rem;
+}
+
+/* HELPERS */
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: var(--prm-fsz);
+  color: var(--prm-clr);
+  background-color: var(--scd-clr);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HELPER CLASSES */
+
+.link {
+  color: var(--scd-clr);
+}
+
+.link:hover {
+  color: var(--brand-light-clr);
+  font-weight: var(--sb-fw);
+}
+
+.primary-accent {
+  color: var(--brand-light-clr);
+}
+
+.secondary-accent {
+  color: var(--brand-dark-clr);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.title {
+  font-weight: var(--black-fw);
+  font-size: var(--title-fsz);
+  line-height: var(--title-lh);
+}
+
+.chef__name,
+.format__title {
+  font-weight: var(--sb-fw);
+}
+
+.btn {
+  width: 100%;
+  max-width: 14.8rem;
+  padding-block: 0.62rem;
+
+  color: var(--scd-clr);
+  font-weight: var(--sb-fw);
+
+  background-color: var(--brand-light-clr);
+  border-radius: var(--prm-br);
+  border: 2px solid var(--brand-light-clr);
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: var(--brand-dark-clr);
+  background-color: transparent;
+}

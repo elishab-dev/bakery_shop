@@ -1,0 +1,64 @@
+.hero__title {
+  color: var(--scd-clr);
+  font-size: var(--hero-title-fsz);
+  font-weight: var(--black-fw);
+  text-align: center;
+}
+
+/* TRADITIONS */
+
+.traditions__list {
+  background-color: var(--brand-light-clr);
+  font-size: var(--scd-fsz);
+  font-weight: var(--light-fw);
+  color: var(--scd-clr);
+}
+
+.traditions__description .primary-accent {
+  font-weight: var(--sb-fw);
+}
+
+.traditions__img {
+  border-radius: 50% 50% 0 0;
+}
+
+/* CHEFS */
+
+.chef__name {
+  font-size: var(--scd-title-fsz);
+}
+
+/* FORMATS */
+
+.format {
+  background-color: gray;
+  color: var(--scd-clr);
+  font-weight: var(--light-fw);
+  font-size: var(--card-fsz);
+}
+
+.format__title {
+  font-size: var(--trt-fsz);
+}
+
+.format > p {
+  line-height: var(--card-lh);
+}
+
+/* FORM */
+
+.form__input {
+  padding: 1rem 2.62rem;
+  color: var(--trt-clr);
+  border: var(--input-border);
+  border-radius: var(--prm-br);
+  background-color: transparent;
+}
+
+.form__confidentials {
+  font-size: var(--form-btn-politics-fsz);
+}
+
+.form__confidentials .form__link {
+  text-decoration: underline;
+}
