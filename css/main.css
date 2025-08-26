@@ -41,7 +41,7 @@
   font-size: var(--trt-fsz);
 }
 
-.format > p {
+.format__text {
   line-height: var(--card-lh);
 }
 

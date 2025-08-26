@@ -1,45 +1,3 @@
-:root {
-  --prm-clr: #31261a;
-  --scd-clr: #faf4ea;
-  --trt-clr: #a18268;
-
-  --brand-light-clr: #819b57;
-  --brand-dark-clr: #465929;
-
-  /* FSZ */
-  --prm-fsz: 1.125rem;
-  --scd-fsz: 1.25rem;
-  --trt-fsz: 1.5rem;
-
-  --form-btn-politics-fsz: 0.75rem;
-
-  --footer-address-fsz: 1rem;
-  --footer-copy-fsz: 0.87rem;
-
-  --hero-title-fsz: 8rem;
-  --title-fsz: 4rem;
-  --scd-title-fsz: 2.5rem;
-
-  --card-fsz: 0.87rem;
-
-  /* LH */
-  --title-lh: 1.3;
-  --card-lh: 1.64;
-
-  /* FW */
-  --light-fw: 300;
-  --sb-fw: 600;
-  --black-fw: 900;
-
-  /* BORDER */
-  --title-border: 2px solid #cfcfbc;
-  --input-border: 1px solid var(--form-input-clr);
-
-  --prm-br: 0.5rem;
-}
-
-/* HELPERS */
-
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -51,7 +9,9 @@ html {
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
   font-size: var(--prm-fsz);
+  font-weight: var(--regular-fw);
   color: var(--prm-clr);
   background-color: var(--scd-clr);
 }
@@ -59,15 +19,14 @@ body {
 h1,
 h2,
 h3,
-p {
+p,
+ul {
   margin: 0;
   padding: 0;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 a {
