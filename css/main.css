@@ -1,17 +1,41 @@
+.hero {
+  padding-block: 17rem;
+}
+
 .hero__title {
   color: var(--scd-clr);
   font-size: var(--hero-title-fsz);
   font-weight: var(--black-fw);
-  text-align: center;
 }
 
-/* TRADITIONS */
+/* ADVANTAGES */
 
-.traditions__list {
+.advantages {
+  padding-block: 0;
   background-color: var(--brand-light-clr);
   font-size: var(--scd-fsz);
   font-weight: var(--light-fw);
   color: var(--scd-clr);
+}
+
+.advantages__list {
+  display: flex;
+  justify-content: space-around;
+  padding-block: 1rem;
+}
+
+/* TRADITIONS */
+
+.traditions {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.traditions__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.62rem;
 }
 
 .traditions__description .primary-accent {
@@ -24,11 +48,43 @@
 
 /* CHEFS */
 
+.chefs__title,
+.formats__title {
+  margin-bottom: 5rem;
+}
+
+.chefs__title .secondary-accent {
+  display: block;
+}
+
+.chefs__list {
+  display: flex;
+  justify-content: space-between;
+}
+.chef__img {
+  border-radius: 4px 4px 4px 200px;
+  /* box-shadow: -20px 20px 0 2px black; */
+  /* border: 1px solid black; */
+}
+
+.chef__description {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .chef__name {
   font-size: var(--scd-title-fsz);
+  margin-bottom: 1rem;
 }
 
 /* FORMATS */
+
+.formats__list {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
 
 .format {
   background-color: gray;
@@ -39,6 +95,7 @@
 
 .format__title {
   font-size: var(--trt-fsz);
+  margin-bottom: 1rem;
 }
 
 .format__text {
@@ -46,6 +103,28 @@
 }
 
 /* FORM */
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.contact__title {
+  margin-bottom: 1rem;
+}
+
+.contact__action {
+  margin-bottom: 2.62rem;
+}
+
+/* form */
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 
 .form__input {
   padding: 1rem 2.62rem;
@@ -61,4 +140,11 @@
 
 .form__confidentials .form__link {
   text-decoration: underline;
+}
+
+.contact__map {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: none;
 }

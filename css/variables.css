@@ -35,7 +35,7 @@
 
   /* BORDER */
   --title-border: 2px solid #cfcfbc;
-  --input-border: 1px solid var(--form-input-clr);
+  --input-border: 1px solid var(--trt-clr);
 
   --prm-br: 0.5rem;
 }

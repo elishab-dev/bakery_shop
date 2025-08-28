@@ -1,5 +1,12 @@
 .footer {
   background-color: blueviolet;
+  padding-block: 2rem;
+}
+
+.footer__layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .footer__contacts {
